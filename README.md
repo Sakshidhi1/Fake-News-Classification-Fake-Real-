@@ -74,6 +74,8 @@ Usage of Web App
 
 3. The app will display whether the article is Fake ❌ or Real ✅.
 
+    
+
 
 
 
