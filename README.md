@@ -74,13 +74,19 @@ Usage of Web App
 
 3. The app will display whether the article is Fake ❌ or Real ✅.
 
+
+
+https://github.com/user-attachments/assets/6c4bb04b-16e6-4dd3-9eea-5ac347035731
+
+
+
+https://github.com/user-attachments/assets/ebcde1ae-de29-4c99-a3c1-4724d0e43731
+
+
+
+   
+
     
-
-
-
-
-
-
 Requirements
 
 Python 3.8+
