@@ -1,6 +1,8 @@
-## 📰 Fake News Classification (Fake / Real)
 
- ##Project Overview
+
+📰 Fake News Classification (Fake / Real)
+
+Project Overview
 
 This project classifies news articles as Fake or Real using Natural Language Processing (NLP) and a Logistic Regression model.
 We combine two datasets (Fake.csv and True.csv), preprocess the text, vectorize with TF-IDF, and train the Logistic Regression model.
@@ -10,10 +12,10 @@ The trained model is deployed using a Streamlit web app for live predictions.
 
 
 
-## Folder Structure
+Folder Structure
 
 FakeNewsClassification/
-
+│
 ├── Fake.csv                # Dataset (Fake news)
 ├── True.csv                # Dataset (True news)
 ├── news_classification.py  # ML training script
@@ -24,31 +26,31 @@ FakeNewsClassification/
 └── README.md               # Project guide
 
 
+---
 
-
-## Steps to Run the Project
+Steps to Run the Project
 
 1. Install Dependencies
 
-   Run this command in your terminal:
+Run this command in your terminal:
 
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 
 
 2. Train the Model
 
-   Run the main script to combine datasets, clean data, train, evaluate, and save the model:
+Run the main script to combine datasets, clean data, train, evaluate, and save the model:
 
-   python news_classification.py
+python news_classification.py
 
-   This will create:
+This will create:
 
-   news.csv
+news.csv
 
-   fake_news_lr_model.pkl
+fake_news_lr_model.pkl
 
-   tfidf_vectorizer.pkl
+tfidf_vectorizer.pkl
 
 
 
@@ -62,7 +64,7 @@ streamlit run app.py
 
 
 
-## Usage of Web App
+Usage of Web App
 
 1. Enter any news article text in the text area.
 
@@ -75,7 +77,9 @@ streamlit run app.py
 
 
 
-## Requirements
+
+
+Requirements
 
 Python 3.8+
 
@@ -98,7 +102,7 @@ streamlit
 
 
 
-## Next Improvements
+Next Improvements
 
 Add support for Naive Bayes or other ML models.
 
@@ -111,5 +115,5 @@ Deploy app online with Streamlit Cloud.
 
 
 
-## Author
-## Sakshi Dhiman
+Author
+Sakshi Dhiman
